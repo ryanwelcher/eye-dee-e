@@ -1,0 +1,27 @@
+{
+	"$schema": "http://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Dracula",
+	"description": "A scary theme variation.",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "editor-background",
+					"color": "#282a36",
+					"name": "Editor Background"
+				},
+				{
+					"slug": "editor-foreground",
+					"color": "#f8f8f2",
+					"name": "Editor Foreground"
+				},
+				{
+					"slug": "editor-headlines",
+					"color": "#f1fa8c",
+					"name": "Editor Headlines"
+				}
+			]
+		}
+	}
+}

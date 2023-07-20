@@ -1,0 +1,119 @@
+{
+	"$schema": "http://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "Shades of Purple",
+	"description": "",
+	"settings": {
+		"border": {},
+		"shadow": {},
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "40rem",
+			"wideSize": "64rem"
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "#2d2b55",
+					"name": "Editor Background",
+					"slug": "editor-background"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Editor Foreground",
+					"slug": "editor-foreground"
+				},
+				{
+					"color": "#FAD000",
+					"name": "Editor Headlines",
+					"slug": "editor-headlines"
+				}
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+					"name": "Primary",
+					"slug": "primary",
+					"fontFace": [
+						{
+							"fontFamily": "Menlo",
+							"fontStyle": "normal",
+							"fontWeight": "normal",
+							"src": [
+								"file:./assets/fonts/menlo/Menlo-Regular.woff"
+							]
+						}
+					]
+				}
+			]
+		},
+		"custom": {},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"color": {
+			"background": "var( --wp--preset--color--editor-background )",
+			"text": "var( --wp--preset--color--editor-foreground )"
+		},
+		"typography": {
+			"fontFamily": "var( --wp--preset--font-family--primary )"
+		},
+		"spacing": {
+			"blockGap": "2rem",
+			"padding": {
+				"bottom": "0",
+				"left": "2rem",
+				"right": "2rem",
+				"top": "0"
+			}
+		},
+		"elements": {
+			"heading": {
+				"color": {
+					"text": "var( --wp--preset--color--editor-headlines )"
+				},
+				"typography": {
+					"fontFamily": "var( --wp--preset--font-family--headings )",
+					"fontWeight": "400"
+				}
+			},
+			"link": {
+				":focus": {
+					"color": {
+						"text": "var( --wp--preset--color--editor-headlines )"
+					}
+				},
+				":hover": {
+					"color": {
+						"text": "var( --wp--preset--color--editor-headlines )"
+					}
+				},
+				"color": {
+					"text": "var( --wp--preset--color--editor-headlines )"
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var( --wp--preset--color--editor-headlines )",
+					"text": "var( --wp--preset--color--editor-background )"
+				}
+			}
+		},
+		"blocks": {}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"customTemplates": []
+}

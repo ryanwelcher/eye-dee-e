@@ -1,0 +1,27 @@
+{
+	"$schema": "http://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"title": "RyanWelcherCodes",
+	"description": "Colors from YouTube channel",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"slug": "editor-background",
+					"color": "#264653",
+					"name": "Editor Background"
+				},
+				{
+					"slug": "editor-foreground",
+					"color": "#ffffff",
+					"name": "Editor Foreground"
+				},
+				{
+					"slug": "editor-headlines",
+					"color": "#e76f51",
+					"name": "Editor Headlines"
+				}
+			]
+		}
+	}
+}
