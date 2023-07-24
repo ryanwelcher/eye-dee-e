@@ -20,6 +20,11 @@
 					"slug": "editor-headlines",
 					"color": "#f1fa8c",
 					"name": "Editor Headlines"
+				},
+				{
+					"slug": "editor-dark",
+					"color": "#1f2027",
+					"name": "Editor Dark"
 				}
 			]
 		}

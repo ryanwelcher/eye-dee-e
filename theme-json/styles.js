@@ -9,10 +9,10 @@ module.exports = {
 	spacing: {
 		blockGap: '2rem',
 		padding: {
-			bottom: '0',
+			bottom: '1rem',
 			left: '2rem',
 			right: '2rem',
-			top: '0',
+			top: '1rem',
 		},
 	},
 	elements: {
@@ -46,5 +46,31 @@ module.exports = {
 			},
 		},
 	},
-	blocks: {},
+	blocks: {
+		'core/site-logo': {
+			border: {
+				color: 'var( --wp--preset--color--editor-headlines )',
+				style: 'solid',
+				width: '2px',
+			},
+		},
+		'core/code': {
+			color: {
+				background: 'var( --wp--preset--color--editor-dark )',
+			},
+			border: {
+				color: 'var( --wp--preset--color--editor-headlines )',
+				style: 'solid',
+				width: '1px',
+			},
+			spacing: {
+				padding: {
+					bottom: '1rem',
+					left: '1rem',
+					right: '1rem',
+					top: '1rem',
+				},
+			},
+		},
+	},
 };

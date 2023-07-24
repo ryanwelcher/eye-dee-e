@@ -23,6 +23,11 @@ module.exports = {
 				name: 'Editor Headlines',
 				slug: 'editor-headlines',
 			},
+			{
+				color: '#1E1E3F',
+				name: 'Editor Dark',
+				slug: 'editor-dark',
+			},
 		],
 	},
 	typography: {

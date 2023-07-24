@@ -9,4 +9,9 @@ module.exports = [
 		name: 'footer',
 		title: 'Footer',
 	},
+	{
+		area: 'sidebar',
+		name: 'sidebar',
+		title: 'Sidebar',
+	},
 ];
