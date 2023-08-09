@@ -2,7 +2,7 @@
 	"$schema": "http://schemas.wp.org/trunk/theme.json",
 	"version": 2,
 	"title": "RyanWelcherCodes",
-	"description": "Colors from YouTube channel",
+	"description": "Colors from my YouTube channel",
 	"settings": {
 		"color": {
 			"palette": [

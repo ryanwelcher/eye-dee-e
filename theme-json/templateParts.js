@@ -14,4 +14,9 @@ module.exports = [
 		name: 'sidebar',
 		title: 'Sidebar',
 	},
+	{
+		area: 'comments',
+		name: 'comments',
+		title: 'Comments',
+	},
 ];

@@ -43,6 +43,7 @@ module.exports = {
 		button: {
 			color: {
 				background: 'var( --wp--preset--color--editor-headlines )',
+				text: 'var( --wp--preset--color--editor-dark )',
 			},
 		},
 	},
