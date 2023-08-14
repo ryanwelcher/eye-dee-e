@@ -4,6 +4,7 @@
  * Slug: ide/js-code-sample
  * Categories: theme, code
  */
+
 ?>
 <!-- wp:paragraph -->
 <p>What this code does...</p>
