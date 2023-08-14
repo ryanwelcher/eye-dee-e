@@ -4,7 +4,7 @@ module.exports = {
 		text: 'var( --wp--preset--color--editor-foreground )',
 	},
 	typography: {
-		fontFamily: 'var( --wp--preset--font-family--primary )',
+		fontFamily: 'var( --wp--preset--font-family--menlo )',
 	},
 	spacing: {
 		blockGap: '2rem',
@@ -71,6 +71,9 @@ module.exports = {
 					right: '1rem',
 					top: '1rem',
 				},
+			},
+			typography: {
+				fontFamily: 'var( --wp--preset--font-family--fira-code )',
 			},
 		},
 	},

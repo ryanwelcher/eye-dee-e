@@ -34,14 +34,69 @@ module.exports = {
 		fontFamilies: [
 			{
 				fontFamily: "Menlo, Monaco, 'Courier New', monospace",
-				name: 'Primary',
-				slug: 'primary',
+				name: 'Menlo',
+				slug: 'menlo',
 				fontFace: [
 					{
 						fontFamily: 'Menlo',
 						fontStyle: 'normal',
 						fontWeight: 'normal',
 						src: [ 'file:./assets/fonts/menlo/Menlo-Regular.woff' ],
+					},
+				],
+			},
+			{
+				fontFamily: 'Fira Code, monospace',
+				name: 'Fira Code',
+				slug: 'fira-code',
+				fontFace: [
+					{
+						fontFamily: 'Fira Code',
+						fontStyle: 'normal',
+						fontWeight: '300',
+						src: [
+							'file:./assets/fonts/fira_code/FiraCode-Light.woff2',
+						],
+					},
+					{
+						fontFamily: 'Fira Code',
+						fontStyle: 'normal',
+						fontWeight: '400',
+						src: [
+							'file:./assets/fonts/fira_code/FiraCode-Regular.woff2',
+						],
+					},
+					{
+						fontFamily: 'Fira Code',
+						fontStyle: 'normal',
+						fontWeight: '500',
+						src: [
+							'file:./assets/fonts/fira_code/FiraCode-Medium.woff2',
+						],
+					},
+					{
+						fontFamily: 'Fira Code',
+						fontStyle: 'normal',
+						fontWeight: '600',
+						src: [
+							'file:./assets/fonts/fira_code/FiraCode-SemiBold.woff2',
+						],
+					},
+					{
+						fontFamily: 'Fira Code',
+						fontStyle: 'normal',
+						fontWeight: '700',
+						src: [
+							'file:./assets/fonts/fira_code/FiraCode-Bold.woff2',
+						],
+					},
+					{
+						fontFamily: 'Fira Code',
+						fontStyle: 'normal',
+						fontWeight: '300 700',
+						src: [
+							'file:./assets/fonts/fira_code/FiraCode-VF.woff2',
+						],
 					},
 				],
 			},
